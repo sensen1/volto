@@ -387,7 +387,7 @@ msgstr "确定要删除此包括所有字段的字段集？"
 #: components/manage/Contents/Contents
 # defaultMessage: Ascending
 msgid "Ascending"
-msgstr "上升"
+msgstr "升序"
 
 #: components/manage/Controlpanels/Rules/ConfigureRule
 # defaultMessage: Assignments
@@ -472,7 +472,7 @@ msgstr "浏览"
 #: components/manage/Blocks/Image/Edit
 # defaultMessage: Browse the site, drop an image, or type an URL
 msgid "Browse the site, drop an image, or type an URL"
-msgstr "浏览网站，放入一张图片，或者输入一个URL"
+msgstr "浏览网站,放入一张图片,或者输入一个URL"
 
 #: components/manage/Sharing/Sharing
 # defaultMessage: By default, permissions from the container of this item are inherited. If you disable this, only the explicitly defined sharing permissions will be valid. In the overview, the symbol {inherited} indicates an inherited value. Similarly, the symbol {global} indicates a global role, which is managed by the site administrator.
@@ -1096,12 +1096,12 @@ msgstr "，事务已被终止。"
 #: components/theme/Register/Register
 # defaultMessage: E-mail
 msgid "E-mail"
-msgstr "E-mail"
+msgstr "电子邮件"
 
 #: components/theme/PasswordReset/PasswordReset
 # defaultMessage: E-mail addresses do not match.
 msgid "E-mail addresses do not match."
-msgstr "邮箱地址不匹配"
+msgstr "电子邮件地址不匹配"
 
 #: components/manage/Contents/ContentsItem
 #: components/manage/Controlpanels/ContentTypesActions
@@ -1668,12 +1668,12 @@ msgstr "继承的值"
 #: components/manage/Blocks/Table/Edit
 # defaultMessage: Insert col after
 msgid "Insert col after"
-msgstr "在后面插入col"
+msgstr "在后面插入列"
 
 #: components/manage/Blocks/Table/Edit
 # defaultMessage: Insert col before
 msgid "Insert col before"
-msgstr "在前面插入col"
+msgstr "在前面插入列"
 
 #: components/manage/Blocks/Table/Edit
 # defaultMessage: Insert row after
@@ -1708,22 +1708,22 @@ msgstr "正在安装第三方附加组件"
 #: components/manage/Widgets/RecurrenceWidget/RecurrenceWidget
 # defaultMessage: days
 msgid "Interval Daily"
-msgstr ""
+msgstr "每天"
 
 #: components/manage/Widgets/RecurrenceWidget/RecurrenceWidget
 # defaultMessage: Month(s)
 msgid "Interval Monthly"
-msgstr ""
+msgstr "每月"
 
 #: components/manage/Widgets/RecurrenceWidget/RecurrenceWidget
 # defaultMessage: week(s)
 msgid "Interval Weekly"
-msgstr ""
+msgstr "每周"
 
 #: components/manage/Widgets/RecurrenceWidget/RecurrenceWidget
 # defaultMessage: year(s)
 msgid "Interval Yearly"
-msgstr ""
+msgstr "每年"
 
 #: components/theme/View/RenderBlocks
 # defaultMessage: Invalid block - Will be removed on saving
@@ -1842,7 +1842,7 @@ msgstr "首图"
 #: components/manage/Widgets/AlignWidget
 # defaultMessage: Left
 msgid "Left"
-msgstr ""
+msgstr "左"
 
 #: components/manage/Toolbar/Toolbar
 # defaultMessage: Link
@@ -2102,7 +2102,7 @@ msgstr "名字"
 #: components/manage/Widgets/AlignWidget
 # defaultMessage: Narrow
 msgid "Narrow"
-msgstr ""
+msgstr "窄"
 
 #: error
 # defaultMessage: Navigate back
@@ -2256,7 +2256,7 @@ msgstr "没有工作流"
 #: components/manage/Contents/ContentsItem
 # defaultMessage: None
 msgid "None"
-msgstr ""
+msgstr "无"
 
 #: components/manage/Controlpanels/UndoControlpanel
 # defaultMessage: Note
@@ -2286,7 +2286,7 @@ msgstr ""
 #: components/manage/Delete/Delete
 # defaultMessage: Ok
 msgid "Ok"
-msgstr ""
+msgstr "确定"
 
 #: components/manage/Widgets/IdWidget
 # defaultMessage: Only lowercase letters (a-z) without accents, numbers (0-9), and the characters "-", "_", and "." are allowed.
@@ -2402,7 +2402,7 @@ msgstr "在执行升级前，请确定您已对网站进行备份。"
 #: components/manage/Blocks/Video/Body
 # defaultMessage: Please enter a valid URL by deleting the block and adding a new video block.
 msgid "Please enter a valid URL by deleting the block and adding a new video block."
-msgstr ""
+msgstr "输入的URL地址无效，请删除区块，再添加一个新的视频区块。"
 
 #: components/manage/Blocks/Maps/Edit
 # defaultMessage: Please enter the Embed Code provided by Google Maps -> Share -> Embed map. It should contain the <iframe> code on it.
@@ -2699,7 +2699,7 @@ msgstr "富文本"
 #: components/manage/Widgets/AlignWidget
 # defaultMessage: Right
 msgid "Right"
-msgstr ""
+msgstr "右"
 
 #: components/manage/Contents/ContentsPropertiesModal
 # defaultMessage: Rights
@@ -2798,7 +2798,7 @@ msgstr "搜索站点"
 #: components/manage/Blocks/Search/schema
 # defaultMessage: Search block
 msgid "Search block"
-msgstr ""
+msgstr "搜索区块"
 
 #: components/manage/Blocks/Search/schema
 # defaultMessage: Search button label
@@ -2949,12 +2949,12 @@ msgstr ""
 #: components/manage/Widgets/WysiwygWidget
 # defaultMessage: Short Name
 msgid "Short Name"
-msgstr ""
+msgstr "短路径名"
 
 #: components/manage/Contents/ContentsRenameModal
 # defaultMessage: Short name
 msgid "Short name"
-msgstr ""
+msgstr "短路径名"
 
 #: components/manage/Controlpanels/Aliases
 #: components/theme/Pagination/Pagination
@@ -3037,7 +3037,7 @@ msgstr "网站设置"
 #: components/theme/Sitemap/Sitemap
 # defaultMessage: Sitemap
 msgid "Sitemap"
-msgstr ""
+msgstr "站点地图"
 
 #: components/theme/View/ImageView
 # defaultMessage: Size: {size}
@@ -3148,7 +3148,7 @@ msgstr ""
 #: helpers/Extensions/withBlockSchemaEnhancer
 # defaultMessage: Styling
 msgid "Styling"
-msgstr ""
+msgstr "样式"
 
 #: components/theme/ContactForm/ContactForm
 # defaultMessage: Subject
@@ -3266,7 +3266,7 @@ msgstr "文本"
 #: components/theme/Unauthorized/Unauthorized
 # defaultMessage: Thank you.
 msgid "Thank you."
-msgstr ""
+msgstr "谢谢"
 
 #: components/manage/Controlpanels/DatabaseInformation
 # defaultMessage: The Database Manager allow you to view database status information
@@ -3506,7 +3506,7 @@ msgstr "触发了事件字段错误。请选择一个值"
 #: components/theme/View/TabularView
 # defaultMessage: Type
 msgid "Type"
-msgstr ""
+msgstr "类型"
 
 #: components/manage/Blocks/Video/Edit
 # defaultMessage: Type a Video (YouTube, Vimeo or mp4) URL
@@ -3598,7 +3598,7 @@ msgstr "卸载"
 #: components/theme/View/RenderBlocks
 # defaultMessage: Unknown Block {block}
 msgid "Unknown Block"
-msgstr "Unknown Block {block}"
+msgstr "未知的区块 {block}"
 
 #: components/manage/Multilingual/ManageTranslations
 # defaultMessage: Unlink translation for
@@ -3781,12 +3781,12 @@ msgstr "视频URL"
 #: components/manage/Contents/ContentsItem
 # defaultMessage: View
 msgid "View"
-msgstr ""
+msgstr "查看"
 
 #: components/manage/History/History
 # defaultMessage: View changes
 msgid "View changes"
-msgstr ""
+msgstr "查看历史"
 
 #: components/manage/History/History
 # defaultMessage: View this revision
@@ -4006,7 +4006,7 @@ msgstr ""
 #: config/Blocks
 # defaultMessage: Common
 msgid "common"
-msgstr ""
+msgstr "通用"
 
 #: components/manage/Multilingual/CompareLanguages
 # defaultMessage: Compare to language
@@ -4136,7 +4136,7 @@ msgstr "我的用户名是"
 #: config/Blocks
 # defaultMessage: Lead Image Field
 msgid "leadimage"
-msgstr ""
+msgstr "主图"
 
 #: config/Blocks
 # defaultMessage: Listing
@@ -4157,7 +4157,7 @@ msgstr "登录"
 #: config/Blocks
 # defaultMessage: Maps
 msgid "maps"
-msgstr ""
+msgstr "地图"
 
 #: components/manage/Widgets/SchemaWidget
 # defaultMessage: Maximum Length
@@ -4187,7 +4187,7 @@ msgstr "最小"
 #: config/Blocks
 # defaultMessage: Most used
 msgid "mostUsed"
-msgstr ""
+msgstr "常用"
 
 #: components/manage/Blocks/Search/components/DateRangeFacetFilterListEntry
 #: components/manage/Blocks/Search/components/ToggleFacetFilterListEntry
