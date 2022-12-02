@@ -14,4 +14,5 @@ module.exports = {
   es: 'Spanish',
   it: 'Italian',
   eu: 'Euskara',
+  zh_CN: '中文 (简体)',
 };
