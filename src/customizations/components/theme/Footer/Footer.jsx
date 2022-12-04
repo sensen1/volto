@@ -42,18 +42,14 @@ const Footer = ({ intl }) => {
       padded
       inverted
       color="grey"
-      textAlign="center"
+      textAlign="left"
       id="footer"
     >
       <Container>
         <Segment basic inverted color="grey" className="discreet">
           <FormattedMessage
             id="footer_sensen"
-            defaultMessage="这是页脚"
-          />{' '}
-          <FormattedMessage
-            id="license_sensen "
-            defaultMessage="版权"
+            defaultMessage="© 2022 by ! | 联系我们"
           />
         </Segment>
       </Container>
