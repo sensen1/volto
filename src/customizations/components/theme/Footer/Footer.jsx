@@ -11,7 +11,6 @@ const Footer = ({ intl }) => {
 
   return (
     <Segment
-      role="contentinfo"
       color="grey"
       textAlign="left"
       id="footer"
@@ -20,15 +19,15 @@ const Footer = ({ intl }) => {
         <Segment basic inverted color="grey" className="discreet">
           <FormattedMessage
             id="footer_sensen"
-            defaultMessage="© 2022 by 森森"
+            defaultMessage="© 2022 by BHU"
           />
         </Segment>
-        <Segment className="contact">
+        <Segment basic inverted color="grey" className="contact">
         <div>
             <a className="item" href="mailto:zhangfang@qymail.bhu.edu.cn">
               <FormattedMessage
                 id="contatus "
-                defaultMessage="  联系我们"
+                defaultMessage=" 联系我们"
               />
             </a>
           </div>
