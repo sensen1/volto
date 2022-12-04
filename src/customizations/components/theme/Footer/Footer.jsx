@@ -54,12 +54,20 @@
            />
            </div>
            <div>
-             <a href="mailto:zhangfang@qymail.bhu.edu.cn">
-               <FormattedMessage
-                 id="contatus"
-                 defaultMessage=" 联系我们"
-               />
-             </a>
+             <FormattedMessage
+               id="contact"
+               defaultMessage="{contactus}"
+               values={{
+                contactus: (
+                  <a href="mailto:zhangfang@qymail.bhu.edu.cn">
+                    <FormattedMessage
+                     id="contact1"
+                     defaultMessage='联系我们'
+                     />
+                     </a>
+                ),
+               }}
+              />
            </div>
          </List>
        </Container>
