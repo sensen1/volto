@@ -32,26 +32,10 @@
        padded
        inverted
        color="grey"
-       textAlign="left"
+       textAlign="center"
        id="footer"
      >
        <Container>
-         <Segment basic inverted color="grey" className="discreet">
-           <FormattedMessage
-             id="copyright"
-             defaultMessage="Copyright 2022 by {BHU}"
-             values={{
-               BHU: (
-                 <a className="item" href="http://www.bhu.edu.cn">
-                   <FormattedMessage
-                     id="bhu"
-                     defaultMessage="BHU"
-                   />
-                 </a>
-               ),
-             }}
-           />{' '}
-         </Segment>
          <List horizontal inverted>
            <div>
            <FormattedMessage
