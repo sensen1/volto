@@ -5,35 +5,9 @@
 
 import React from 'react';
 import { Container, List, Segment } from 'semantic-ui-react';
-import { map } from 'lodash';
-import { FormattedMessage, defineMessages, injectIntl } from 'react-intl';
-import { useSelector, shallowEqual } from 'react-redux';
-import { UniversalLink } from '@plone/volto/components';
-import config from '@plone/volto/registry';
-import { flattenToAppURL, addAppURL } from '@plone/volto/helpers';
+import { FormattedMessage, injectIntl } from 'react-intl';
 
-const messages = defineMessages({
-  copyright: {
-    id: 'Copyright',
-    defaultMessage: 'Copyright',
-  },
-});
-
-/**
- * Component to display the footer.
- * @function Footer
- * @param {Object} intl Intl object
- * @returns {string} Markup of the component
- */
 const Footer = ({ intl }) => {
-  const { settings } = config;
-  const { lang, siteActions = [] } = useSelector(
-    (state) => ({
-      lang: state.intl.locale,
-      siteActions: state.actions?.actions?.site_actions,
-    }),
-    shallowEqual,
-  );
 
   return (
     <Segment
@@ -57,7 +31,7 @@ const Footer = ({ intl }) => {
             <a className="item" href="mailto:zhangfang@qymail.bhu.edu.cn">
               <FormattedMessage
                 id="contatus "
-                defaultMessage="联系我们"
+                defaultMessage="  联系我们"
               />
             </a>
           </div>
@@ -65,17 +39,6 @@ const Footer = ({ intl }) => {
       </Container>
     </Segment>
   );
-};
-
-/**
- * Property types.
- * @property {Object} propTypes Property types.
- * @static
- */
-Footer.propTypes = {
-  /**
-   * i18n object
-   */
 };
 
 export default injectIntl(Footer);
