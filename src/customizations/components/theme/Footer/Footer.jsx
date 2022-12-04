@@ -49,9 +49,19 @@ const Footer = ({ intl }) => {
         <Segment basic inverted color="grey" className="discreet">
           <FormattedMessage
             id="footer_sensen"
-            defaultMessage="© 2022 by ! | 联系我们"
+            defaultMessage="© 2022 by 森森"
           />
         </Segment>
+        <List horizontal inverted>
+        <div role="listitem" className="item">
+            <a className="item" href="mailto:zhangfang@qymail.bhu.edu.cn">
+              <FormattedMessage
+                id="contatus "
+                defaultMessage="联系我们"
+              />
+            </a>
+          </div>
+        </List>
       </Container>
     </Segment>
   );
