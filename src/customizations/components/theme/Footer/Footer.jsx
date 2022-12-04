@@ -6,7 +6,6 @@
  import React from 'react';
  import { Container, List, Segment } from 'semantic-ui-react';
  import { FormattedMessage, defineMessages, injectIntl } from 'react-intl';
- import { useSelector, shallowEqual } from 'react-redux';
  import config from '@plone/volto/registry';
  
  /**
@@ -17,14 +16,6 @@
   */
  const Footer = ({ intl }) => {
    const { settings } = config;
-   const { lang, siteActions = [] } = useSelector(
-     (state) => ({
-       lang: state.intl.locale,
-       siteActions: state.actions?.actions?.site_actions,
-     }),
-     shallowEqual,
-   );
- 
    return (
      <Segment
        role="contentinfo"
@@ -36,7 +27,6 @@
        id="footer"
      >
        <Container>
-         <List horizontal inverted>
            <div>
            <FormattedMessage
              id="copyright"
@@ -69,7 +59,6 @@
                }}
               />
            </div>
-         </List>
        </Container>
      </Segment>
    );
