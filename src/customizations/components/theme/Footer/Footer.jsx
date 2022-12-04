@@ -53,13 +53,13 @@
            />{' '}
          </Segment>
          <List horizontal inverted>
-           <div role="listitem" className="item">
+           <div role="listitem" className="item1">
            <FormattedMessage
              id="copyright"
              defaultMessage="Copyright 2022 by {BHU}"
              values={{
                BHU: (
-                 <a className="item" href="http://www.bhu.edu.cn">
+                 <a className="item1" href="http://www.bhu.edu.cn">
                    <FormattedMessage
                      id="bhu"
                      defaultMessage="BHU"
@@ -69,8 +69,8 @@
              }}
            />
            </div>
-           <div role="listitem" className="item">
-             <a className="item" href="mailto:zhangfang@qymail.bhu.edu.cn">
+           <div role="listitem" className="item2">
+             <a className="item2" href="mailto:zhangfang@qymail.bhu.edu.cn">
                <FormattedMessage
                  id="contatus"
                  defaultMessage=" 联系我们"
