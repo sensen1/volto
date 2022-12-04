@@ -12,9 +12,6 @@ const Footer = ({ intl }) => {
   return (
     <Segment
       role="contentinfo"
-      vertical
-      padded
-      inverted
       color="grey"
       textAlign="left"
       id="footer"
@@ -26,8 +23,8 @@ const Footer = ({ intl }) => {
             defaultMessage="© 2022 by 森森"
           />
         </Segment>
-        <List horizontal inverted>
-        <div role="listitem" className="item">
+        <Segment className="contact">
+        <div>
             <a className="item" href="mailto:zhangfang@qymail.bhu.edu.cn">
               <FormattedMessage
                 id="contatus "
@@ -35,7 +32,7 @@ const Footer = ({ intl }) => {
               />
             </a>
           </div>
-        </List>
+        </Segment>
       </Container>
     </Segment>
   );
