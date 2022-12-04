@@ -67,7 +67,7 @@
                  </a>
                ),
              }}
-           />{' '}
+           />
            </div>
            <div role="listitem" className="item">
              <a className="item" href="mailto:zhangfang@qymail.bhu.edu.cn">
