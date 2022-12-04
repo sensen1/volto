@@ -33,7 +33,7 @@
              defaultMessage="Copyright 2022 by {BHU}"
              values={{
                BHU: (
-                 <a href="http://www.bhu.edu.cn">
+                 <a className="item" color="grey" href="http://www.bhu.edu.cn">
                    <FormattedMessage
                      id="bhu"
                      defaultMessage="BHU"
@@ -49,7 +49,7 @@
                defaultMessage="{contactus}"
                values={{
                 contactus: (
-                  <a href="mailto:zhangfang@qymail.bhu.edu.cn">
+                  <a className="item" color="grey" href="mailto:zhangfang@qymail.bhu.edu.cn">
                     <FormattedMessage
                      id="contact1"
                      defaultMessage='联系我们'
