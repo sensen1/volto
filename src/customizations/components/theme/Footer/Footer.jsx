@@ -54,6 +54,22 @@
          </Segment>
          <List horizontal inverted>
            <div role="listitem" className="item">
+           <FormattedMessage
+             id="copyright"
+             defaultMessage="Copyright 2022 by {BHU}"
+             values={{
+               BHU: (
+                 <a className="item" href="http://www.bhu.edu.cn">
+                   <FormattedMessage
+                     id="bhu"
+                     defaultMessage="BHU"
+                   />
+                 </a>
+               ),
+             }}
+           />{' '}
+           </div>
+           <div role="listitem" className="item">
              <a className="item" href="mailto:zhangfang@qymail.bhu.edu.cn">
                <FormattedMessage
                  id="contatus"
