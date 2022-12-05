@@ -37,7 +37,7 @@ import applyAddonConfiguration, { addonsInfo } from 'load-volto-addons';
 
 import ConfigRegistry from '@plone/volto/registry';
 
-const host = process.env.HOST || '192.168.11.35';
+const host = process.env.HOST || 'localhost';
 const port = process.env.PORT || '3000';
 
 const apiPath =
