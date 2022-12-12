@@ -83,7 +83,7 @@ let config = {
     devProxyToApiPath:
       process.env.RAZZLE_DEV_PROXY_API_PATH ||
       process.env.RAZZLE_API_PATH ||
-      'http://localhost:8080/Plone', // Set it to '' for disabling the proxy
+      'http://192.168.11.21:8080/EMC', // Set it to '' for disabling the proxy
     // proxyRewriteTarget Set it for set a custom target for the proxy or overide the internal VHM rewrite
     // proxyRewriteTarget: '/VirtualHostBase/http/localhost:8080/Plone/VirtualHostRoot/_vh_api'
     // proxyRewriteTarget: 'https://myvoltositeinproduction.com'
@@ -107,9 +107,9 @@ let config = {
     notSupportedBrowsers: ['ie'],
     defaultPageSize: 25,
     isMultilingual: false,
-    supportedLanguages: ['en'],
-    defaultLanguage: 'en',
-    navDepth: 1,
+    supportedLanguages: ['en', 'zh_CN'],
+    defaultLanguage: 'zh_CN',
+    navDepth: 3,
     expressMiddleware: serverConfig.expressMiddleware, // BBB
     defaultBlockType: 'slate',
     verticalFormTabs: false,
@@ -206,6 +206,7 @@ ConfigRegistry.views = config.views;
 ConfigRegistry.widgets = config.widgets;
 ConfigRegistry.addonRoutes = config.addonRoutes;
 ConfigRegistry.addonReducers = config.addonReducers;
+ConfigRegistry.appExtras = config.appExtras;
 ConfigRegistry.components = config.components;
 
 applyAddonConfiguration(ConfigRegistry);

@@ -32,6 +32,12 @@
       "package": "@plone/volto-slate"
     }
   },
+  "addons": [
+    "@kitconcept/volto-blocks-grid"
+  ],
+  "dependencies": {
+    "@kitconcept/volto-blocks-grid": "*"
+  },
   "scripts": {
     "postinstall": "make patches",
     "analyze": "BUNDLE_ANALYZE=true razzle build",
