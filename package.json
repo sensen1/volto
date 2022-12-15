@@ -32,6 +32,9 @@
       "package": "@plone/volto-slate"
     }
   },
+  "addons": [
+    "@kitconcept/volto-blocks-grid"
+  ],
   "scripts": {
     "postinstall": "make patches",
     "analyze": "BUNDLE_ANALYZE=true razzle build",
@@ -241,6 +244,7 @@
     "@testing-library/jest-dom": "5.16.4",
     "@testing-library/react": "12.1.5",
     "@testing-library/react-hooks": "8.0.1",
+    "@kitconcept/volto-blocks-grid": "*",
     "autoprefixer": "10.4.8",
     "axe-core": "4.4.2",
     "babel-eslint": "10.1.0",
