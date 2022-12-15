@@ -7,7 +7,7 @@ import debug from 'debug';
 export default () => {
   const server = http.createServer(app);
   // const host = process.env.HOST || 'localhost';
-  const port = process.env.PORT || 3000;
+  const port = process.env.PORT || 4000;
   const bind_address = process.env.RAZZLE_BIND_ADDRESS || '0.0.0.0';
 
   let currentApp = app;

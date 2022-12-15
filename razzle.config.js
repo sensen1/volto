@@ -170,7 +170,7 @@ const defaultModify = ({
         // but keeps the one from build time, if different from 3000 (by not deleting it)
         // So build time one takes precedence, do not set it in build time if you want
         // to control it always via runtime (assumming 3000 === not set in build time)
-        if (newDefs['process.env.PORT'] === '3000') {
+        if (newDefs['process.env.PORT'] === '4000') {
           delete newDefs['process.env.PORT'];
         }
         config.plugins[index] = new webpack.DefinePlugin(newDefs);

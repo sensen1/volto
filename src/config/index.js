@@ -38,7 +38,7 @@ import applyAddonConfiguration, { addonsInfo } from 'load-volto-addons';
 import ConfigRegistry from '@plone/volto/registry';
 
 const host = process.env.HOST || 'localhost';
-const port = process.env.PORT || '3000';
+const port = process.env.PORT || '4000';
 
 const apiPath =
   process.env.RAZZLE_API_PATH ||
@@ -83,7 +83,7 @@ let config = {
     devProxyToApiPath:
       process.env.RAZZLE_DEV_PROXY_API_PATH ||
       process.env.RAZZLE_API_PATH ||
-      'http://192.168.11.21:8080/EMC', // Set it to '' for disabling the proxy
+      'http://192.168.11.20:8080/EMC', // Set it to '' for disabling the proxy
     // proxyRewriteTarget Set it for set a custom target for the proxy or overide the internal VHM rewrite
     // proxyRewriteTarget: '/VirtualHostBase/http/localhost:8080/Plone/VirtualHostRoot/_vh_api'
     // proxyRewriteTarget: 'https://myvoltositeinproduction.com'
