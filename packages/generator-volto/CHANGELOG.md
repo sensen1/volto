@@ -1,16 +1,45 @@
-# Change Log
+# Volto Generator Release Notes
 
-## 6.0.0 (unreleased)
+<!-- You should *NOT* be adding new change log entries to this file.
+     You should create a file in the news directory instead.
+     For helpful instructions, please see:
+     https://6.dev-docs.plone.org/volto/developer-guidelines/contributing.html#create-a-pull-request
+-->
 
-### Breaking
+<!-- towncrier release notes start -->
 
-### Feature
+## 6.1.2 (2022-12-05)
 
 ### Bugfix
 
 - Generator is aware of `rc`, `beta` and `alphas` as possible releases for canary @sneridagh
+- Add `cypress.config.js` to generator templates @sneridagh [#4021](https://github.com/plone/volto/issues/4021)
+
+
+## 6.1.1 (2022-11-24)
+
+### Bugfix
+
+- Updated reset fixture scripts for generator @sneridagh
+
+## 6.1.0 (2022-11-24)
+
+### Feature
+
+- Refactor the `package.json` scripts, move all Cypress related to `Makefile` commands, remove the scripts that are obsolete as well. @sneridagh
+- Update the default Plone Versions from the convenience docker images in `Makefile` @sneridagh
+
+## 6.0.0 (2022-11-22)
 
 ### Internal
+
+- Releasing final @sneridagh
+
+## 6.0.0-alpha.4 (2022-11-20)
+
+### Bugfix
+
+- Generator is aware of `rc`, `beta` and `alphas` as possible releases for canary @sneridagh
 
 ## 6.0.0-alpha.3 (2022-11-16)
 
