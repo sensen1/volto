@@ -38,7 +38,7 @@ import applyAddonConfiguration, { addonsInfo } from 'load-volto-addons';
 import ConfigRegistry from '@plone/volto/registry';
 
 const host = process.env.HOST || 'localhost';
-const port = process.env.PORT || '4000';
+const port = process.env.PORT || '3000';
 
 const apiPath =
   process.env.RAZZLE_API_PATH ||
