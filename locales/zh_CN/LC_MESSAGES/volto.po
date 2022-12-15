@@ -2,20 +2,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plone\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: \n"
+"POT-Creation-Date: 2022-11-29T19:22:55.075Z\n"
 "PO-Revision-Date: \n"
-"Last-Translator: \n"
+"Last-Translator: BHU 302 Team\n"
 "Language: zh_CN\n"
-"Language-Team: \n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: BHU 302 Team n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Language-Code: zh_CN\n"
+"Language-Code: zh\n"
 "Language-Name: Chinese\n"
 "Preferred-Encodings: utf-8\n"
-"X-Is-Fallback-For: zh-cn\n"
-"X-Generator: Poedit 3.2\n"
+"Domain: volto\n"
 
 #: components/manage/Blocks/HTML/Edit
 # defaultMessage: <p>Add some HTML here</p>
@@ -385,7 +384,7 @@ msgstr "确定要删除此包括所有字段的字段集？"
 #: components/manage/Contents/Contents
 # defaultMessage: Ascending
 msgid "Ascending"
-msgstr "上升"
+msgstr "升序"
 
 #: components/manage/Controlpanels/Rules/ConfigureRule
 # defaultMessage: Assignments
@@ -470,7 +469,7 @@ msgstr "浏览"
 #: components/manage/Blocks/Image/Edit
 # defaultMessage: Browse the site, drop an image, or type an URL
 msgid "Browse the site, drop an image, or type an URL"
-msgstr "浏览网站，放入一张图片，或者输入一个URL"
+msgstr "浏览网站,放入一张图片,或者输入一个URL"
 
 #: components/manage/Sharing/Sharing
 # defaultMessage: By default, permissions from the container of this item are inherited. If you disable this, only the explicitly defined sharing permissions will be valid. In the overview, the symbol {inherited} indicates an inherited value. Similarly, the symbol {global} indicates a global role, which is managed by the site administrator.
@@ -490,12 +489,12 @@ msgstr "缓存名称"
 #: components/manage/Controlpanels/ContentTypeLayout
 # defaultMessage: Can not edit Layout for <strong>{type}</strong> content-type as it doesn't have support for <strong>Volto Blocks</strong> enabled
 msgid "Can not edit Layout for <strong>{type}</strong> content-type as it doesn't have support for <strong>Volto Blocks</strong> enabled"
-msgstr ""
+msgstr "不能编辑<strong>{type}</strong>内容类型的布局，因为它不支持<strong>Volto Blocks</strong>的启用。"
 
 #: components/manage/Controlpanels/ContentTypeLayout
 # defaultMessage: Can not edit Layout for <strong>{type}</strong> content-type as the <strong>Blocks behavior</strong> is enabled and <strong>read-only</strong>
 msgid "Can not edit Layout for <strong>{type}</strong> content-type as the <strong>Blocks behavior</strong> is enabled and <strong>read-only</strong>"
-msgstr ""
+msgstr "不能编辑<strong>{type}</strong>内容类型的布局，因为<strong>Block 行为</strong>已启用，并且<strong>只读</strong>。"
 
 #: components/manage/Add/Add
 #: components/manage/Contents/ContentsUploadModal
@@ -864,7 +863,7 @@ msgstr "数据库大小"
 #: components/manage/Controlpanels/DatabaseInformation
 # defaultMessage: Database main
 msgid "Database main"
-msgstr ""
+msgstr "主数据库"
 
 #: components/manage/Controlpanels/Aliases
 #: components/manage/Controlpanels/ModerateComments
@@ -1094,12 +1093,12 @@ msgstr "，事务已被终止。"
 #: components/theme/Register/Register
 # defaultMessage: E-mail
 msgid "E-mail"
-msgstr "E-mail"
+msgstr "电子邮件"
 
 #: components/theme/PasswordReset/PasswordReset
 # defaultMessage: E-mail addresses do not match.
 msgid "E-mail addresses do not match."
-msgstr "邮箱地址不匹配"
+msgstr "电子邮件地址不匹配"
 
 #: components/manage/Contents/ContentsItem
 #: components/manage/Controlpanels/ContentTypesActions
@@ -1274,7 +1273,7 @@ msgstr "错误"
 #: components/manage/Controlpanels/Aliases
 # defaultMessage: Error
 msgid "ErrorHeader"
-msgstr ""
+msgstr "错误头文件"
 
 #: components/manage/Controlpanels/Rules/Rules
 # defaultMessage: Event
@@ -1339,32 +1338,32 @@ msgstr "失效的URL"
 #: components/manage/Blocks/Search/schema
 # defaultMessage: Facet
 msgid "Facet"
-msgstr ""
+msgstr "维度"
 
 #: components/manage/Blocks/Search/schema
 # defaultMessage: Facet widget
 msgid "Facet widget"
-msgstr ""
+msgstr "维度部件"
 
 #: components/manage/Blocks/Search/schema
 # defaultMessage: Facets
 msgid "Facets"
-msgstr ""
+msgstr "各种维度"
 
 #: config/Blocks
 # defaultMessage: Facets on left side
 msgid "Facets on left side"
-msgstr ""
+msgstr "左侧维度"
 
 #: config/Blocks
 # defaultMessage: Facets on right side
 msgid "Facets on right side"
-msgstr ""
+msgstr "右侧维度"
 
 #: config/Blocks
 # defaultMessage: Facets on top
 msgid "Facets on top"
-msgstr ""
+msgstr "顶端维度"
 
 #: components/manage/Controlpanels/UndoControlpanel
 # defaultMessage: Failed to undo transactions
@@ -1454,14 +1453,14 @@ msgstr "第四"
 #: components/theme/ContactForm/ContactForm
 # defaultMessage: From
 msgid "From"
-msgstr ""
+msgstr "表格"
 
 #: components/manage/Blocks/Maps/Edit
 #: components/manage/Sidebar/AlignBlock
 #: components/manage/Widgets/AlignWidget
 # defaultMessage: Full
 msgid "Full"
-msgstr ""
+msgstr "全部"
 
 #: components/theme/Register/Register
 # defaultMessage: Full Name
@@ -1491,7 +1490,7 @@ msgstr "全局角色"
 #: components/manage/Blocks/Maps/Edit
 # defaultMessage: Google Maps Embedded Block
 msgid "Google Maps Embedded Block"
-msgstr "Google 地图嵌入块"
+msgstr "Google地图嵌入块"
 
 #: components/manage/Sharing/Sharing
 # defaultMessage: Group
@@ -1545,7 +1544,7 @@ msgstr "标题级别"
 #: components/manage/Blocks/Search/schema
 # defaultMessage: Hidden facets will still filter the results if proper parameters are passed in URLs
 msgid "Hidden facets will still filter the results if proper parameters are passed in URLs"
-msgstr ""
+msgstr "如果在URL中传递了适当的参数，隐藏维度仍然会过滤结果"
 
 #: components/theme/Comments/Comments
 # defaultMessage: Hide Replies
@@ -1555,7 +1554,7 @@ msgstr "隐藏回复"
 #: components/manage/Blocks/Search/schema
 # defaultMessage: Hide facet?
 msgid "Hide facet?"
-msgstr ""
+msgstr "隐藏维度？"
 
 #: components/manage/History/History
 #: components/manage/Toolbar/More
@@ -1584,7 +1583,7 @@ msgstr "首页"
 #: components/manage/Contents/Contents
 # defaultMessage: ID
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: components/manage/Controlpanels/Rules/ConfigureRule
 # defaultMessage: If all of the following conditions are met:
@@ -1636,7 +1635,7 @@ msgid "Image view"
 msgstr "图像视图"
 
 #: components/manage/Widgets/RecurrenceWidget/Occurences
-# defaultMessage: Include this occurrence
+# defaultMessage: Include this occurence
 msgid "Include this occurence"
 msgstr "包括这个事件"
 
@@ -1651,7 +1650,7 @@ msgstr "信息"
 #: components/manage/Controlpanels/Users/UserGroupMembershipControlPanel
 # defaultMessage: You have selected the option 'many users' or 'many groups'. Thus this control panel asks for input to show users and groups. If you want to see users and groups instantaneous, head over to user group settings. See the button on the left.
 msgid "InfoUserGroupSettings"
-msgstr ""
+msgstr "InfoUserGroupSettings"
 
 #: components/manage/Sharing/Sharing
 # defaultMessage: Inherit permissions from higher levels
@@ -1666,12 +1665,12 @@ msgstr "继承的值"
 #: components/manage/Blocks/Table/Edit
 # defaultMessage: Insert col after
 msgid "Insert col after"
-msgstr "在后面插入col"
+msgstr "在后面插入列"
 
 #: components/manage/Blocks/Table/Edit
 # defaultMessage: Insert col before
 msgid "Insert col before"
-msgstr "在前面插入col"
+msgstr "在前面插入列"
 
 #: components/manage/Blocks/Table/Edit
 # defaultMessage: Insert row after
@@ -1706,22 +1705,22 @@ msgstr "正在安装第三方附加组件"
 #: components/manage/Widgets/RecurrenceWidget/RecurrenceWidget
 # defaultMessage: days
 msgid "Interval Daily"
-msgstr ""
+msgstr "每天"
 
 #: components/manage/Widgets/RecurrenceWidget/RecurrenceWidget
 # defaultMessage: Month(s)
 msgid "Interval Monthly"
-msgstr ""
+msgstr "每月"
 
 #: components/manage/Widgets/RecurrenceWidget/RecurrenceWidget
 # defaultMessage: week(s)
 msgid "Interval Weekly"
-msgstr ""
+msgstr "每周"
 
 #: components/manage/Widgets/RecurrenceWidget/RecurrenceWidget
 # defaultMessage: year(s)
 msgid "Interval Yearly"
-msgstr ""
+msgstr "每年"
 
 #: components/manage/Blocks/Block/DefaultView
 #: components/theme/View/RenderBlocks
@@ -1735,7 +1734,7 @@ msgid "Item batch size"
 msgstr "条目批量大小"
 
 #: components/manage/Contents/Contents
-# defaultMessage: Item successfully moved.
+# defaultMessage: Item succesfully moved.
 msgid "Item succesfully moved."
 msgstr "成功移除条目。"
 
@@ -1841,7 +1840,7 @@ msgstr "首图"
 #: components/manage/Widgets/AlignWidget
 # defaultMessage: Left
 msgid "Left"
-msgstr ""
+msgstr "左"
 
 #: components/manage/Toolbar/Toolbar
 # defaultMessage: Link
@@ -1963,7 +1962,7 @@ msgstr "管理{title}的翻译"
 #: components/manage/Controlpanels/Aliases
 # defaultMessage: Manual
 msgid "Manual"
-msgstr ""
+msgstr "手动"
 
 #: components/manage/Controlpanels/Aliases
 # defaultMessage: Manually or automatically added?
@@ -2055,7 +2054,7 @@ msgstr "更多关于升级步骤的信息可以在升级指南中的plone.org文
 #: config/Views
 # defaultMessage: Mosaic layout
 msgid "Mosaic layout"
-msgstr ""
+msgstr "马赛克布局"
 
 #: components/manage/Controlpanels/Rules/ConfigureRule
 # defaultMessage: Move down
@@ -2101,7 +2100,7 @@ msgstr "名字"
 #: components/manage/Widgets/AlignWidget
 # defaultMessage: Narrow
 msgid "Narrow"
-msgstr ""
+msgstr "窄"
 
 #: error
 # defaultMessage: Navigate back
@@ -2139,17 +2138,17 @@ msgstr "否"
 #: components/manage/Controlpanels/UndoControlpanel
 # defaultMessage: No transactions found
 msgid "No Transactions Found"
-msgstr ""
+msgstr "未发现事务"
 
 #: components/manage/Controlpanels/UndoControlpanel
 # defaultMessage: No transactions selected
 msgid "No Transactions Selected"
-msgstr ""
+msgstr "未选择事务"
 
 #: components/manage/Controlpanels/UndoControlpanel
 # defaultMessage: No transactions selected to do undo
 msgid "No Transactions Selected To Do Undo"
-msgstr ""
+msgstr "没有选择要撤消的事务"
 
 #: components/manage/Blocks/Video/VideoSidebar
 # defaultMessage: No Video selected
@@ -2174,7 +2173,7 @@ msgstr "未选择图像"
 #: components/manage/Blocks/LeadImage/LeadImageSidebar
 # defaultMessage: No image set in Lead Image content field
 msgid "No image set in Lead Image content field"
-msgstr ""
+msgstr "在前置图像内容字段中没有设置图像"
 
 #: components/manage/Blocks/LeadImage/LeadImageSidebar
 # defaultMessage: No image set in image content field
@@ -2199,7 +2198,7 @@ msgstr "未选择镜像"
 #: components/manage/Widgets/RecurrenceWidget/Occurences
 # defaultMessage: No occurences set
 msgid "No occurences set"
-msgstr ""
+msgstr "未设定"
 
 #: components/manage/Widgets/ArrayWidget
 #: components/manage/Widgets/SelectAutoComplete
@@ -2255,12 +2254,12 @@ msgstr "没有工作流"
 #: components/manage/Contents/ContentsItem
 # defaultMessage: None
 msgid "None"
-msgstr ""
+msgstr "无"
 
 #: components/manage/Controlpanels/UndoControlpanel
 # defaultMessage: Note
 msgid "Note"
-msgstr ""
+msgstr "注意"
 
 #: components/manage/Controlpanels/Users/UsersControlpanel
 # defaultMessage: Note that roles set here apply directly to a user. The symbol{plone_svg}indicates a role inherited from membership in a group.
@@ -2280,17 +2279,17 @@ msgstr "对象大小"
 #: components/manage/Widgets/RecurrenceWidget/EndField
 # defaultMessage: occurrence(s)
 msgid "Occurences"
-msgstr ""
+msgstr "事件"
 
 #: components/manage/Delete/Delete
 # defaultMessage: Ok
 msgid "Ok"
-msgstr ""
+msgstr "确定"
 
 #: components/manage/Widgets/IdWidget
 # defaultMessage: Only lowercase letters (a-z) without accents, numbers (0-9), and the characters "-", "_", and "." are allowed.
 msgid "Only lowercase letters (a-z) without accents, numbers (0-9), and the characters "-", "_", and "." are allowed."
-msgstr "只允许不带读音号的小写字母(a-z)，数字(0-9)，和符号：_,-,.。"
+msgstr "只允许不带读音号的小写字母(a-z)，数字(0-9)，和符号‘_’,‘-’,'.'。"
 
 #: components/manage/Blocks/Image/schema
 #: components/manage/Blocks/LeadImage/LeadImageSidebar
@@ -2401,12 +2400,12 @@ msgstr "在执行升级前，请确定您已对网站进行备份。"
 #: components/manage/Blocks/Video/Body
 # defaultMessage: Please enter a valid URL by deleting the block and adding a new video block.
 msgid "Please enter a valid URL by deleting the block and adding a new video block."
-msgstr ""
+msgstr "输入的URL地址无效，请删除区块，再添加一个新的视频区块。"
 
 #: components/manage/Blocks/Maps/Edit
 # defaultMessage: Please enter the Embed Code provided by Google Maps -> Share -> Embed map. It should contain the <iframe> code on it.
 msgid "Please enter the Embed Code provided by Google Maps -> Share -> Embed map. It should contain the <iframe> code on it."
-msgstr ""
+msgstr "请输入以下路径提供的嵌入式代码: 谷歌地图 -> 分享 -> 嵌入式地图。它应该包含<iframe>代码。"
 
 #: components/theme/PasswordReset/PasswordReset
 # defaultMessage: Please fill out the form below to set your password.
@@ -2426,7 +2425,7 @@ msgstr "请升级到plone.restapi >= 8.24.0。"
 #: components/theme/Footer/Footer
 # defaultMessage: Plone Foundation
 msgid "Plone Foundation"
-msgstr ""
+msgstr "Plone基础"
 
 #: components/theme/Logo/Logo
 # defaultMessage: Plone Site
@@ -2436,7 +2435,7 @@ msgstr "Plone站点"
 #: components/theme/Footer/Footer
 # defaultMessage: Plone{reg} Open Source CMS/WCM
 msgid "Plone{reg} Open Source CMS/WCM"
-msgstr ""
+msgstr "Plone{reg}开源CMS/WCM"
 
 #: components/manage/Controlpanels/Rules/ConfigureRule
 # defaultMessage: Position changed
@@ -2456,7 +2455,7 @@ msgstr "可能产生坏链接"
 #: components/theme/Footer/Footer
 # defaultMessage: Powered by Plone & Python
 msgid "Powered by Plone & Python"
-msgstr ""
+msgstr "由Plone & Python提供支持"
 
 #: components/manage/Toolbar/PersonalTools
 # defaultMessage: Preferences
@@ -2503,7 +2502,7 @@ msgstr "发布日期"
 #: components/manage/Blocks/Listing/schema
 # defaultMessage: Query
 msgid "Query"
-msgstr ""
+msgstr "疑问"
 
 #: components/manage/Preferences/ChangePassword
 #: components/theme/PasswordReset/PasswordReset
@@ -2525,17 +2524,17 @@ msgstr "重新排列条目通过..."
 #: components/manage/Widgets/RecurrenceWidget/EndField
 # defaultMessage: Ends
 msgid "Recurrence ends"
-msgstr ""
+msgstr "循环结束"
 
 #: components/manage/Widgets/RecurrenceWidget/EndField
 # defaultMessage: after
 msgid "Recurrence ends after"
-msgstr ""
+msgstr "循环在...后结束"
 
 #: components/manage/Widgets/RecurrenceWidget/EndField
 # defaultMessage: on
 msgid "Recurrence ends on"
-msgstr ""
+msgstr "循环结束于"
 
 #: components/manage/Form/UndoToolbar
 # defaultMessage: Redo
@@ -2577,7 +2576,7 @@ msgstr "删除条目"
 #: components/manage/Widgets/RecurrenceWidget/RecurrenceWidget
 # defaultMessage: Remove
 msgid "Remove recurrence"
-msgstr ""
+msgstr "删除循环"
 
 #: components/manage/Controlpanels/Aliases
 # defaultMessage: Remove selected
@@ -2587,7 +2586,7 @@ msgstr "删除已选中"
 #: components/manage/Widgets/VocabularyTermsWidget
 # defaultMessage: Remove term
 msgid "Remove term"
-msgstr ""
+msgstr "删除项"
 
 #: helpers/MessageLabels/MessageLabels
 # defaultMessage: Remove users from group
@@ -2623,12 +2622,12 @@ msgstr "重复"
 #: components/manage/Widgets/RecurrenceWidget/RecurrenceWidget
 # defaultMessage: Repeat every
 msgid "Repeat every"
-msgstr ""
+msgstr "重复全部"
 
 #: components/manage/Widgets/RecurrenceWidget/RecurrenceWidget
 # defaultMessage: Repeat on
 msgid "Repeat on"
-msgstr ""
+msgstr "重复链接"
 
 #: components/manage/Widgets/FileWidget
 # defaultMessage: Replace existing file
@@ -2645,7 +2644,7 @@ msgstr "回复"
 #: components/manage/Widgets/WysiwygWidget
 # defaultMessage: Required
 msgid "Required"
-msgstr ""
+msgstr "需求"
 
 #: components/manage/Form/ModalForm
 #: helpers/MessageLabels/MessageLabels
@@ -2698,12 +2697,12 @@ msgstr "富文本"
 #: components/manage/Widgets/AlignWidget
 # defaultMessage: Right
 msgid "Right"
-msgstr ""
+msgstr "右"
 
 #: components/manage/Contents/ContentsPropertiesModal
 # defaultMessage: Rights
 msgid "Rights"
-msgstr ""
+msgstr "权利"
 
 #: helpers/MessageLabels/MessageLabels
 # defaultMessage: Roles
@@ -2714,7 +2713,7 @@ msgstr "规则"
 #: components/manage/Contents/ContentsBreadcrumbsRootItem
 # defaultMessage: Root
 msgid "Root"
-msgstr ""
+msgstr "根"
 
 #: components/manage/Controlpanels/Rules/AddRule
 # defaultMessage: Rule added
@@ -2755,7 +2754,7 @@ msgstr "保存"
 #: components/manage/Widgets/RecurrenceWidget/RecurrenceWidget
 # defaultMessage: Save
 msgid "Save recurrence"
-msgstr ""
+msgstr "保存循环"
 
 #: helpers/MessageLabels/MessageLabels
 # defaultMessage: Saved
@@ -2765,7 +2764,7 @@ msgstr "已保存"
 #: components/manage/Controlpanels/ContentTypesActions
 # defaultMessage: Schema
 msgid "Schema"
-msgstr ""
+msgstr "架构"
 
 #: components/manage/Controlpanels/ContentTypeSchema
 # defaultMessage: Schema updates
@@ -2797,7 +2796,7 @@ msgstr "搜索站点"
 #: components/manage/Blocks/Search/schema
 # defaultMessage: Search block
 msgid "Search block"
-msgstr ""
+msgstr "搜索区块"
 
 #: components/manage/Blocks/Search/schema
 # defaultMessage: Search button label
@@ -2843,7 +2842,7 @@ msgstr "搜索用户..."
 #: components/manage/Blocks/Search/components/SearchDetails
 # defaultMessage: Searched for: <em>{searchedtext}</em>.
 msgid "Searched for: <em>{searchedtext}</em>."
-msgstr ""
+msgstr "搜索: <em>{查找文本}</em>。"
 
 #: components/manage/Widgets/RecurrenceWidget/WeekdayOfTheMonthIndexField
 # defaultMessage: Second
@@ -2865,7 +2864,7 @@ msgstr "选择"
 #: components/manage/Widgets/RecurrenceWidget/RecurrenceWidget
 # defaultMessage: Select a date to add to recurrence
 msgid "Select a date to add to recurrence"
-msgstr ""
+msgstr "选择添加循环的日期"
 
 #: components/manage/Contents/Contents
 # defaultMessage: Select columns to show
@@ -2941,19 +2940,19 @@ msgstr "共享"
 #: components/manage/Sharing/Sharing
 # defaultMessage: Sharing for {title}
 msgid "Sharing for {title}"
-msgstr ""
+msgstr "分享给 {标题}"
 
 #: components/manage/Widgets/SchemaWidget
 #: components/manage/Widgets/SelectWidget
 #: components/manage/Widgets/WysiwygWidget
 # defaultMessage: Short Name
 msgid "Short Name"
-msgstr ""
+msgstr "短路径名"
 
 #: components/manage/Contents/ContentsRenameModal
 # defaultMessage: Short name
 msgid "Short name"
-msgstr ""
+msgstr "短路径名"
 
 #: components/manage/Controlpanels/Aliases
 #: components/theme/Pagination/Pagination
@@ -3036,7 +3035,7 @@ msgstr "网站设置"
 #: components/theme/Sitemap/Sitemap
 # defaultMessage: Sitemap
 msgid "Sitemap"
-msgstr ""
+msgstr "站点地图"
 
 #: components/theme/View/ImageView
 # defaultMessage: Size: {size}
@@ -3049,7 +3048,7 @@ msgid "Small"
 msgstr "小"
 
 #: error
-# defaultMessage: Sorry, something went wrong with your request
+# defaultMessage: Sorry, something went wrong with your request 
 msgid "Sorry, something went wrong with your request"
 msgstr "对不起，您的请求出现了一些问题"
 
@@ -3089,7 +3088,7 @@ msgstr "排序"
 #: components/manage/Blocks/Image/schema
 # defaultMessage: Source
 msgid "Source"
-msgstr ""
+msgstr "源"
 
 #: components/manage/Blocks/Video/Edit
 # defaultMessage: Specify a youtube video or playlist url
@@ -3099,7 +3098,7 @@ msgstr "指定一个youtube视频或播放列表的url"
 #: components/manage/Diff/Diff
 # defaultMessage: Split
 msgid "Split"
-msgstr ""
+msgstr "分开"
 
 #: components/manage/Blocks/Search/components/DateRangeFacet
 #: components/manage/Contents/Contents
@@ -3137,17 +3136,17 @@ msgstr "停止比较"
 #: components/manage/Widgets/SchemaWidget
 # defaultMessage: String
 msgid "String"
-msgstr ""
+msgstr "字符"
 
 #: components/manage/Blocks/Table/Edit
 # defaultMessage: Alternate row background color
 msgid "Stripe alternate rows with color"
-msgstr ""
+msgstr "用颜色标记交替行"
 
 #: helpers/Extensions/withBlockSchemaEnhancer
 # defaultMessage: Styling
 msgid "Styling"
-msgstr ""
+msgstr "样式"
 
 #: components/theme/ContactForm/ContactForm
 # defaultMessage: Subject
@@ -3179,7 +3178,7 @@ msgstr "成功"
 #: components/manage/Controlpanels/UndoControlpanel
 # defaultMessage: Successfully undone transactions
 msgid "Successfully Undone Transactions"
-msgstr ""
+msgstr "成功撤销事务"
 
 #: config/Blocks
 # defaultMessage: Summary
@@ -3246,7 +3245,7 @@ msgstr "每个缓存目标以字节为单位的内存大小"
 #: components/manage/Controlpanels/DatabaseInformation
 # defaultMessage: Target number of objects in memory per cache
 msgid "Target number of objects in memory per cache"
-msgstr ""
+msgstr "每个缓存在内存中的目标对象数"
 
 #: components/manage/Controlpanels/Aliases
 # defaultMessage: Target url path must start with a slash.
@@ -3265,7 +3264,7 @@ msgstr "文本"
 #: components/theme/Unauthorized/Unauthorized
 # defaultMessage: Thank you.
 msgid "Thank you."
-msgstr ""
+msgstr "谢谢"
 
 #: components/manage/Controlpanels/DatabaseInformation
 # defaultMessage: The Database Manager allow you to view database status information
@@ -3280,7 +3279,7 @@ msgstr "由于服务器超时或您设备的连接问题，后端未响应。请
 #: components/theme/ConnectionRefused/ConnectionRefused
 # defaultMessage: The backend is not responding, please check if you have started Plone, check your project's configuration object apiPath (or if you are using the internal proxy, devProxyToApiPath) or the RAZZLE_API_PATH Volto's environment variable.
 msgid "The backend is not responding, please check if you have started Plone, check your project's configuration object apiPath (or if you are using the internal proxy, devProxyToApiPath) or the RAZZLE_API_PATH Volto's environment variable."
-msgstr ""
+msgstr "后端没有响应，请检查是否启动了Plone，检查项目的配置对象apiPath(或者如果使用内部代理，devProxyToApiPath)或RAZZLE_API_PATH Volto的环境变量。"
 
 #: components/theme/CorsError/CorsError
 # defaultMessage: The backend is responding, but the CORS headers are not configured properly and the browser has denied the access to the backend resources.
@@ -3341,7 +3340,7 @@ msgstr "工作副本被丢弃"
 #: components/theme/Footer/Footer
 # defaultMessage: The {plonecms} is {copyright} 2000-{current_year} by the {plonefoundation} and friends.
 msgid "The {plonecms} is {copyright} 2000-{current_year} by the {plonefoundation} and friends."
-msgstr ""
+msgstr "{plonecms}的{版权}在2000-{当前年}，由{plonfoundation}和朋友们提供。"
 
 #: components/theme/CorsError/CorsError
 # defaultMessage: There is a configuration problem on the backend
@@ -3446,12 +3445,12 @@ msgstr "全部评论"
 #: components/manage/Controlpanels/DatabaseInformation
 # defaultMessage: Total number of objects in each cache
 msgid "Total number of objects in each cache"
-msgstr ""
+msgstr "每个缓存中的对象总数"
 
 #: components/manage/Controlpanels/DatabaseInformation
 # defaultMessage: Total number of objects in memory from all caches
 msgid "Total number of objects in memory from all caches"
-msgstr ""
+msgstr "内存中来自所有缓存的对象总数"
 
 #: components/manage/Controlpanels/DatabaseInformation
 # defaultMessage: Total number of objects in the database
@@ -3461,28 +3460,28 @@ msgstr "数据库中对象的总数"
 #: components/manage/Controlpanels/UndoControlpanel
 # defaultMessage: Transactions
 msgid "Transactions"
-msgstr ""
+msgstr "事务"
 
 #: components/manage/Controlpanels/UndoControlpanel
 # defaultMessage: #
 msgid "Transactions Checkbox"
-msgstr ""
+msgstr "事务复选框"
 
 #: components/manage/Controlpanels/UndoControlpanel
 # defaultMessage: Transactions have been sorted
 msgid "Transactions Have Been Sorted"
-msgstr ""
+msgstr "事务已被排序"
 
 #: components/manage/Controlpanels/UndoControlpanel
 # defaultMessage: Transactions have been unsorted
 msgid "Transactions Have Been Unsorted"
-msgstr ""
+msgstr "事务未排序"
 
 #: components/manage/Add/Add
 #: components/manage/Toolbar/Types
 # defaultMessage: Translate to {lang}
 msgid "Translate to {lang}"
-msgstr ""
+msgstr "翻译为 {lang}"
 
 #: components/manage/Multilingual/ManageTranslations
 # defaultMessage: Translation linked
@@ -3505,7 +3504,7 @@ msgstr "触发了事件字段错误。请选择一个值"
 #: components/theme/View/TabularView
 # defaultMessage: Type
 msgid "Type"
-msgstr ""
+msgstr "类型"
 
 #: components/manage/Blocks/Video/Edit
 # defaultMessage: Type a Video (YouTube, Vimeo or mp4) URL
@@ -3535,7 +3534,7 @@ msgstr "输入标题..."
 #: components/manage/Contents/Contents
 # defaultMessage: UID
 msgid "UID"
-msgstr ""
+msgstr "UID"
 
 #: components/manage/Aliases/Aliases
 #: components/manage/Controlpanels/Aliases
@@ -3576,7 +3575,7 @@ msgstr "撤销"
 #: components/manage/Controlpanels/UndoControlpanel
 # defaultMessage: Undo Controlpanel
 msgid "Undo Controlpanel"
-msgstr ""
+msgstr "撤销控制面板"
 
 #: components/manage/BlockChooser/BlockChooser
 # defaultMessage: Unfold
@@ -3586,7 +3585,7 @@ msgstr "展开"
 #: components/manage/Diff/Diff
 # defaultMessage: Unified
 msgid "Unified"
-msgstr ""
+msgstr "未定义"
 
 #: components/manage/Controlpanels/AddonsControlpanel
 # defaultMessage: Uninstall
@@ -3598,7 +3597,7 @@ msgstr "卸载"
 #: components/theme/View/RenderBlocks
 # defaultMessage: Unknown Block {block}
 msgid "Unknown Block"
-msgstr "Unknown Block {block}"
+msgstr "未知的区块 {block}"
 
 #: components/manage/Multilingual/ManageTranslations
 # defaultMessage: Unlink translation for
@@ -3663,7 +3662,7 @@ msgstr "上传"
 #: components/manage/Blocks/LeadImage/Edit
 # defaultMessage: Upload a lead image in the 'Lead Image' content field.
 msgid "Upload a lead image in the 'Lead Image' content field."
-msgstr ""
+msgstr "在“lead image”内容字段中上传一个住到图片。"
 
 #: components/manage/Blocks/HeroImageLeft/Edit
 # defaultMessage: Upload a new image
@@ -3781,12 +3780,12 @@ msgstr "视频URL"
 #: components/manage/Contents/ContentsItem
 # defaultMessage: View
 msgid "View"
-msgstr ""
+msgstr "查看"
 
 #: components/manage/History/History
 # defaultMessage: View changes
 msgid "View changes"
-msgstr ""
+msgstr "查看历史"
 
 #: components/manage/History/History
 # defaultMessage: View this revision
@@ -3806,17 +3805,17 @@ msgstr "视图模式"
 #: components/manage/Widgets/VocabularyTermsWidget
 # defaultMessage: Vocabulary term
 msgid "Vocabulary term"
-msgstr ""
+msgstr "词汇表"
 
 #: components/manage/Widgets/VocabularyTermsWidget
 # defaultMessage: Title
 msgid "Vocabulary term title"
-msgstr ""
+msgstr "词汇表标题"
 
 #: components/manage/Widgets/VocabularyTermsWidget
 # defaultMessage: Vocabulary terms
 msgid "Vocabulary terms"
-msgstr ""
+msgstr "词汇表标题"
 
 #: components/manage/Controlpanels/VersionOverview
 # defaultMessage: You are running in 'debug mode'. This mode is intended for sites that are under development. This allows many configuration changes to be immediately visible, but will make your site run more slowly. To turn off debug mode, stop the server, set 'debug-mode=off' in your buildout.cfg, re-run bin/buildout and then restart the server process.
@@ -3840,8 +3839,8 @@ msgstr "很抱歉，您没有访问该资源的权限。"
 
 #: components/manage/Widgets/RecurrenceWidget/WeekdayOfTheMonthIndexField
 # defaultMessage: The
-msgid "Weeek day of month"
-msgstr ""
+msgid "Week day of month"
+msgstr "每个月的第一天"
 
 #: components/manage/Widgets/RecurrenceWidget/RecurrenceWidget
 # defaultMessage: Weekday
@@ -3857,13 +3856,13 @@ msgstr "每周"
 #: components/manage/History/History
 # defaultMessage: What
 msgid "What"
-msgstr ""
+msgstr "什么"
 
 #: components/manage/Controlpanels/UndoControlpanel
 #: components/manage/History/History
 # defaultMessage: When
 msgid "When"
-msgstr ""
+msgstr "何时"
 
 #: components/manage/Contents/ContentsPropertiesModal
 # defaultMessage: When this date is reached, the content will nolonger be visible in listings and searches.
@@ -3880,7 +3879,7 @@ msgstr "此规则执行后，停止执行后面的内容规则。"
 #: components/manage/Controlpanels/Rules/EditRule
 # defaultMessage: Whether or not other rules should be triggered by the actions launched by this rule. Activate this only if you are sure this won't create infinite loops
 msgid "Whether or not other rules should be triggered by the actions launched by this rule. Activate this only if you are sure this won't create infinite loops"
-msgstr ""
+msgstr "该规则启动的操作是否应该触发其他规则。只有当你确定这不会造成无限循环时才能够激活它。"
 
 #: components/manage/Controlpanels/Rules/AddRule
 #: components/manage/Controlpanels/Rules/EditRule
@@ -3892,13 +3891,13 @@ msgstr "是否启用当前规则"
 #: components/manage/History/History
 # defaultMessage: Who
 msgid "Who"
-msgstr ""
+msgstr "谁"
 
 #: components/manage/Sidebar/AlignBlock
 #: components/manage/Widgets/AlignWidget
 # defaultMessage: Wide
 msgid "Wide"
-msgstr ""
+msgstr "宽"
 
 #: components/manage/Contents/ContentsWorkflowModal
 # defaultMessage: Updating workflow states...
@@ -3920,7 +3919,7 @@ msgstr "每年"
 #: components/manage/Controlpanels/ContentTypes
 # defaultMessage: Yes
 msgid "Yes"
-msgstr ""
+msgstr "是"
 
 #: components/theme/Unauthorized/Unauthorized
 # defaultMessage: You are trying to access a protected resource, please {login} first.
@@ -3990,27 +3989,27 @@ msgstr "重置密码需要您的用户名。"
 #: helpers/MessageLabels/MessageLabels
 # defaultMessage: Enter an email address. This is necessary in case the password is lost. We respect your privacy, and will not give the address away to any third parties or expose it anywhere.
 msgid "addUserFormEmailDescription"
-msgstr ""
+msgstr "输入电子邮件地址，用于密码找回。仅本站使用，尊重隐私。"
 
 #: helpers/MessageLabels/MessageLabels
 # defaultMessage: Enter full name, e.g. John Smith.
 msgid "addUserFormFullnameDescription"
-msgstr ""
+msgstr "输入用户全名，比如：张三丰"
 
 #: helpers/MessageLabels/MessageLabels
 # defaultMessage: Enter your new password. Minimum 8 characters.
 msgid "addUserFormPasswordDescription"
-msgstr ""
+msgstr "输入新密码，不少于8个字符"
 
 #: helpers/MessageLabels/MessageLabels
 # defaultMessage: Enter a user name, usually something like "jsmith". No spaces or special characters. Usernames and passwords are case sensitive, make sure the caps lock key is not enabled. This is the name used to log in.
 msgid "addUserFormUsernameDescription"
-msgstr ""
+msgstr "输入用户名，这是用于登录的名称。通常比如“张三丰”的用户名可以为“zsfeng”。用户名不能包含空格或特殊字符。用户名区分大小写，请确保未启用大写锁定键。"
 
 #: components/manage/Blocks/Search/schema
 # defaultMessage: Available views
 msgid "availableViews"
-msgstr ""
+msgstr "可用视图"
 
 #: components/theme/Login/Login
 #: components/theme/PasswordReset/RequestPasswordReset
@@ -4021,22 +4020,22 @@ msgstr "忘记了密码？"
 #: config/Blocks
 # defaultMessage: Checkbox
 msgid "checkboxFacet"
-msgstr ""
+msgstr "复选框维度"
 
 #: config/Blocks
 # defaultMessage: Common
 msgid "common"
-msgstr ""
+msgstr "通用"
 
 #: components/manage/Multilingual/CompareLanguages
 # defaultMessage: Compare to language
 msgid "compare_to"
-msgstr ""
+msgstr "对比"
 
 #: config/Blocks
 # defaultMessage: Date Range
 msgid "daterangeFacet"
-msgstr ""
+msgstr "日期范围维度"
 
 #: components/manage/Blocks/Block/EditBlockWrapper
 # defaultMessage: delete
@@ -4101,17 +4100,17 @@ msgstr "web站点"
 #: components/theme/EventDetails/EventDetails
 # defaultMessage: What
 msgid "event_what"
-msgstr ""
+msgstr "什么事件"
 
 #: components/theme/EventDetails/EventDetails
 # defaultMessage: When
 msgid "event_when"
-msgstr ""
+msgstr "事件时间"
 
 #: components/theme/EventDetails/EventDetails
 # defaultMessage: Where
 msgid "event_where"
-msgstr ""
+msgstr "事件地点"
 
 #: components/theme/PasswordReset/RequestPasswordReset
 # defaultMessage: Password reset confirmation sent
@@ -4121,12 +4120,12 @@ msgstr "密码重置确认邮件已发送"
 #: config/Blocks
 # defaultMessage: Hero
 msgid "hero"
-msgstr ""
+msgstr "主人公"
 
 #: config/Blocks
 # defaultMessage: HTML
 msgid "html"
-msgstr ""
+msgstr "html"
 
 #: config/Blocks
 # defaultMessage: Image
@@ -4156,18 +4155,18 @@ msgstr "我的用户名是"
 #: config/Blocks
 # defaultMessage: Lead Image Field
 msgid "leadimage"
-msgstr ""
+msgstr "主图"
 
 #: config/Blocks
 # defaultMessage: Listing
 msgid "listing"
-msgstr ""
+msgstr "列表"
 
 #: components/manage/Blocks/Listing/ListingBody
 #: components/manage/Contents/Contents
 # defaultMessage: Loading
 msgid "loading"
-msgstr ""
+msgstr "加载中"
 
 #: components/theme/Unauthorized/Unauthorized
 # defaultMessage: log in
@@ -4177,7 +4176,7 @@ msgstr "登录"
 #: config/Blocks
 # defaultMessage: Maps
 msgid "maps"
-msgstr ""
+msgstr "地图"
 
 #: components/manage/Widgets/SchemaWidget
 # defaultMessage: Maximum Length
@@ -4207,14 +4206,14 @@ msgstr "最小"
 #: config/Blocks
 # defaultMessage: Most used
 msgid "mostUsed"
-msgstr ""
+msgstr "常用"
 
 #: components/manage/Blocks/Search/components/DateRangeFacetFilterListEntry
 #: components/manage/Blocks/Search/components/ToggleFacetFilterListEntry
 #: components/theme/Widgets/BooleanWidget
 # defaultMessage: No
 msgid "no"
-msgstr ""
+msgstr "否"
 
 #: components/manage/Contents/ContentsItem
 # defaultMessage: No workflow state
@@ -4230,7 +4229,7 @@ msgstr "数字"
 #: components/manage/Widgets/RecurrenceWidget/ByYearField
 # defaultMessage: of the month
 msgid "of the month"
-msgstr ""
+msgstr "月度"
 
 #: error
 # defaultMessage: or try a different page.
@@ -4240,7 +4239,7 @@ msgstr "或者尝试一个不同的页面"
 #: components/manage/Widgets/RecurrenceWidget/Occurences
 # defaultMessage: others
 msgid "others"
-msgstr ""
+msgstr "其他"
 
 #: components/manage/Contents/ContentsItem
 # defaultMessage: Pending
@@ -4260,7 +4259,7 @@ msgstr "已发布"
 #: components/manage/Widgets/QueryWidget
 # defaultMessage: Select…
 msgid "querystring-widget-select"
-msgstr ""
+msgstr "选择疑问组件"
 
 #: components/theme/Search/Search
 # defaultMessage: results
@@ -4275,167 +4274,167 @@ msgstr "返回站点root"
 #: components/manage/Widgets/RecurrenceWidget/Utils
 # defaultMessage: and
 msgid "rrule_and"
-msgstr ""
+msgstr "重复规则叠加"
 
 #: components/manage/Widgets/RecurrenceWidget/Utils
 # defaultMessage: (~approximate)
 msgid "rrule_approximate"
-msgstr ""
+msgstr "重复规则模拟"
 
 #: components/manage/Widgets/RecurrenceWidget/Utils
 # defaultMessage: at
 msgid "rrule_at"
-msgstr ""
+msgstr "rrule_at"
 
 #: components/manage/Widgets/RecurrenceWidget/Utils
 # defaultMessage: [month] [day], [year]
 msgid "rrule_dateFormat"
-msgstr ""
+msgstr "重复规则日期格式"
 
 #: components/manage/Widgets/RecurrenceWidget/Utils
 # defaultMessage: day
 msgid "rrule_day"
-msgstr ""
+msgstr "重复规则日期"
 
 #: components/manage/Widgets/RecurrenceWidget/Utils
 # defaultMessage: days
 msgid "rrule_days"
-msgstr ""
+msgstr "重复规则数天"
 
 #: components/manage/Widgets/RecurrenceWidget/Utils
 # defaultMessage: every
 msgid "rrule_every"
-msgstr ""
+msgstr "每个重复规则"
 
 #: components/manage/Widgets/RecurrenceWidget/Utils
 # defaultMessage: for
 msgid "rrule_for"
-msgstr ""
+msgstr "rrule_for"
 
 #: components/manage/Widgets/RecurrenceWidget/Utils
 # defaultMessage: hour
 msgid "rrule_hour"
-msgstr ""
+msgstr "重复规则小时"
 
 #: components/manage/Widgets/RecurrenceWidget/Utils
 # defaultMessage: hours
 msgid "rrule_hours"
-msgstr ""
+msgstr "重复规则数小时"
 
 #: components/manage/Widgets/RecurrenceWidget/Utils
 # defaultMessage: in
 msgid "rrule_in"
-msgstr ""
+msgstr "rrule_in"
 
 #: components/manage/Widgets/RecurrenceWidget/Utils
 # defaultMessage: last
 msgid "rrule_last"
-msgstr ""
+msgstr "最后重复规则"
 
 #: components/manage/Widgets/RecurrenceWidget/Utils
 # defaultMessage: minutes
 msgid "rrule_minutes"
-msgstr ""
+msgstr "重复规则分钟"
 
 #: components/manage/Widgets/RecurrenceWidget/Utils
 # defaultMessage: month
 msgid "rrule_month"
-msgstr ""
+msgstr "重复规则月份"
 
 #: components/manage/Widgets/RecurrenceWidget/Utils
 # defaultMessage: months
 msgid "rrule_months"
-msgstr ""
+msgstr "重复规则数月"
 
 #: components/manage/Widgets/RecurrenceWidget/Utils
 # defaultMessage: nd
 msgid "rrule_nd"
-msgstr ""
+msgstr "rrule_nd"
 
 #: components/manage/Widgets/RecurrenceWidget/Utils
 # defaultMessage: on
 msgid "rrule_on"
-msgstr ""
+msgstr "rrule_on"
 
 #: components/manage/Widgets/RecurrenceWidget/Utils
 # defaultMessage: on the
 msgid "rrule_on the"
-msgstr ""
+msgstr "rrule_on the"
 
 #: components/manage/Widgets/RecurrenceWidget/Utils
 # defaultMessage: or
 msgid "rrule_or"
-msgstr ""
+msgstr "rrule_or"
 
 #: components/manage/Widgets/RecurrenceWidget/Utils
 # defaultMessage: rd
 msgid "rrule_rd"
-msgstr ""
+msgstr "rrule_rd"
 
 #: components/manage/Widgets/RecurrenceWidget/Utils
 # defaultMessage: st
 msgid "rrule_st"
-msgstr ""
+msgstr "rrule_st"
 
 #: components/manage/Widgets/RecurrenceWidget/Utils
 # defaultMessage: th
 msgid "rrule_th"
-msgstr ""
+msgstr "rrule_th"
 
 #: components/manage/Widgets/RecurrenceWidget/Utils
 # defaultMessage: the
 msgid "rrule_the"
-msgstr ""
+msgstr "rrule_the"
 
 #: components/manage/Widgets/RecurrenceWidget/Utils
 # defaultMessage: time
 msgid "rrule_time"
-msgstr ""
+msgstr "重复规则时间"
 
 #: components/manage/Widgets/RecurrenceWidget/Utils
 # defaultMessage: times
 msgid "rrule_times"
-msgstr ""
+msgstr "重复规则时间"
 
 #: components/manage/Widgets/RecurrenceWidget/Utils
 # defaultMessage: until
 msgid "rrule_until"
-msgstr ""
+msgstr "重复规则直到"
 
 #: components/manage/Widgets/RecurrenceWidget/Utils
 # defaultMessage: week
 msgid "rrule_week"
-msgstr ""
+msgstr "重复规则周"
 
 #: components/manage/Widgets/RecurrenceWidget/Utils
 # defaultMessage: weekday
 msgid "rrule_weekday"
-msgstr ""
+msgstr "重复规则工作日"
 
 #: components/manage/Widgets/RecurrenceWidget/Utils
 # defaultMessage: weekdays
 msgid "rrule_weekdays"
-msgstr ""
+msgstr "重复规则数工作日"
 
 #: components/manage/Widgets/RecurrenceWidget/Utils
 # defaultMessage: weeks
 msgid "rrule_weeks"
-msgstr ""
+msgstr "重复规则数周"
 
 #: components/manage/Widgets/RecurrenceWidget/Utils
 # defaultMessage: year
 msgid "rrule_year"
-msgstr ""
+msgstr "重复规则年"
 
 #: components/manage/Widgets/RecurrenceWidget/Utils
 # defaultMessage: years
 msgid "rrule_years"
-msgstr ""
+msgstr "重复规则数年"
 
 #: config/Blocks
 # defaultMessage: Select
 msgid "selectFacet"
-msgstr ""
+msgstr "选择维度"
 
 #: components/manage/Blocks/Search/components/ViewSwitcher
 # defaultMessage: Select view
@@ -4485,17 +4484,17 @@ msgstr "目录"
 #: config/Blocks
 # defaultMessage: Toggle
 msgid "toggleFacet"
-msgstr ""
+msgstr "切换维度"
 
 #: components/manage/Controlpanels/AddonsControlpanel
 # defaultMessage: Update from version {origin} to {destination}
 msgid "upgradeVersions"
-msgstr ""
+msgstr "升级视图"
 
 #: helpers/MessageLabels/MessageLabels
 # defaultMessage: Input must be valid url (www.something.com or http(s)://www.something.com)
 msgid "url"
-msgstr ""
+msgstr "url"
 
 #: components/manage/Toolbar/PersonalTools
 # defaultMessage: user avatar
@@ -4510,7 +4509,7 @@ msgstr "视频"
 #: components/manage/Blocks/Search/schema
 # defaultMessage: Views
 msgid "views"
-msgstr ""
+msgstr "视图"
 
 #: components/theme/EventDetails/EventDetails
 # defaultMessage: Visit external website
@@ -4532,12 +4531,12 @@ msgstr "执行此操作时发生了一个错误"
 #: components/theme/Widgets/BooleanWidget
 # defaultMessage: Yes
 msgid "yes"
-msgstr ""
+msgstr "是"
 
 #: components/manage/Contents/ContentsUploadModal
 # defaultMessage: {count, plural, one {Upload {count} file} other {Upload {count} files}}
 msgid "{count, plural, one {Upload {count} file} other {Upload {count} files}}"
-msgstr ""
+msgstr "{计数, 复数, 单数 {上传 {计数} 文件} 其他 {上传 {计数} 文件}}"
 
 #: components/manage/Contents/Contents
 # defaultMessage: {count} selected
@@ -4552,7 +4551,7 @@ msgstr "{id}内容类型"
 #: components/manage/Controlpanels/ContentTypeSchema
 # defaultMessage: {id} Schema
 msgid "{id} Schema"
-msgstr ""
+msgstr "{id} 模式"
 
 #: components/manage/Actions/Actions
 # defaultMessage: {title} copied.
